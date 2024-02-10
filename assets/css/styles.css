@@ -212,6 +212,11 @@ main{
     width: 99vw;
     height: 95vh;
     background-color: #171717;
+    color: #CCC;
+}
+
+.container_contacts table{
+   display: flex;
 }
 
 .container_footer{
