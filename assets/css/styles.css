@@ -21,6 +21,13 @@ header{
     
 }
 
+
+.title_header span{
+    color: gold;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .banner{
     display: flex;
     align-items: center;
@@ -152,6 +159,7 @@ main{
     width: calc(33.333% - 10px);
     height: calc(33.333% - 10px);
     object-fit: cover;
+    border-radius: 20px;
         
 }
 
@@ -181,4 +189,20 @@ main{
 
 .left{
   margin-left: 200px;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 95vh;
+    background-color: #171717;
+}
+
+.container_footer{
+    width: 99vw;
+    height: 10vh;
+    background-color: #707070;
+
 }
