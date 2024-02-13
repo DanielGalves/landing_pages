@@ -5,7 +5,8 @@
     width: 99vw;
     height: 95vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(2, 2, 2, 0.589)), url(../../img/macarrao.png);
-    background-size: cover;      
+    background-size: 100% 100%; 
+    background-position: center;     
 
 }
 .text{
@@ -20,7 +21,7 @@
 }
 .text h1{
     position: absolute;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 1000;    
     text-align: center;
     -webkit-background-clip: text;
@@ -33,7 +34,7 @@
     position: absolute;
     font-size: 1rem;
     width:100%;
-    margin-top: 15rem;
+    margin-top: 17rem;
     text-align: center;
     animation: slide_up 2s linear;
 }
@@ -48,15 +49,10 @@
     }
 }
 
-@media only screen and (max-width: 430px){
-    .inicial{
-        background-size:cover;
-    }
-    
-    
-    
+@media only screen and (max-width: 600px){
+      
     .text{
-        width: 80%;
+        width: 85%;
     }
     
     .text h1{
@@ -65,8 +61,27 @@
         margin-top: 5rem;
     } 
     .text p{
-        font-size: 0,5rem;
+        font-size: 0.5rem;
         font-weight: 100;
+        margin-top: 15rem;
     }
     
 }
+
+@media screen and (max-width: 925px){ 
+    
+    .text h1{
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-top: 5rem;
+    } 
+    .text p{
+        font-size: 1rem;
+        font-weight: 100;       
+    }
+    
+}
+
+
+
+

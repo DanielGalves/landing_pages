@@ -28,6 +28,7 @@ header{
 }
 
 .logo img{
+    margin-top: 8px 0 0 8px;
     width: 3rem;
     height: 100%;  
 
@@ -35,6 +36,7 @@ header{
 .contatos{
     display: flex;
     flex-direction: row;
+    align-items: center;
     float: right;
     margin-right: 1%;
     
@@ -44,4 +46,12 @@ header{
     padding-left: 6px;
     width: 80%;
     height: 100%;   
+}
+
+@media only screen and (max-width:600px) {
+ 
+    .title_header span{
+        font-size: .8rem;
+    }
+    
 }
