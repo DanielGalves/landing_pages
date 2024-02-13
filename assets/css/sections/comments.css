@@ -1,0 +1,22 @@
+.comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 95vh;
+    background-color: #171717;
+}
+
+.comment {
+    width: 40rem;
+    height: 5rem;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: brown solid 2px;
+    margin-top: 10px;
+   
+}
+
+.left{
+  margin-left: 200px;
+}
