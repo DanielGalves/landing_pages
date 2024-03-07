@@ -48,7 +48,7 @@
     
 }
 
-.service h1 {
+.service h2 {
     font-size: 2rem;
     font-weight: 400;
     padding-top: 40px;
@@ -63,3 +63,24 @@
     margin-top: 40px;
 }
 
+@media only screen and (max-width: 600px){
+    
+    .container_services h1 {
+        font-size: 2rem;
+    }
+    
+    .service h2 {
+        font-size: 1rem;
+        font-weight: 300;
+        padding-top: 10px;
+    
+    
+    
+    }
+    
+    .service p {
+        text-align: justify;
+        font-size: .5rem;
+        margin-top: 10px;
+    }
+}
