@@ -1,6 +1,7 @@
 @import url(../css/reset.css);
 @import url(../css/header.css);
 @import url(../css/sections/inicial.css);
+@import url(../css/sections/services.css);
 @import url(../css/sections/works.css);
 @import url(../css/sections/comments.css);
 
@@ -18,8 +19,6 @@ main{
     justify-content: center;
     flex-direction: column;  
 }
-
-
 
 .contacts{
     display: flex;
