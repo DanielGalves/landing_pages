@@ -6,11 +6,16 @@
 @import url(../css/sections/comments.css);
 
 
+
+
 body{    
     height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.container{
+
 }
 
 main{
