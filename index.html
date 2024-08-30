@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,109 +8,116 @@
     <title>Buffet de Luxo</title>
     <link rel="stylesheet" href="/src/CSS/styles.css">
 </head>
+
 <body>
     <div class="container">
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="/src/imagens/Logo.png" alt="Logo do Buffet">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="/src/imagens/Logo.png" alt="Logo do Buffet">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="cta">
+                    <a href="https://www.instagram.com/dellamassas/" target="_blank"><img
+                            src="./src/imagens/instagram.svg" alt="instagram"></a>
+                    <a href="https://wa.me/556184999719" target="_blank"><img src="./src/imagens/whatsapp.svg"
+                            alt="WhatsApp"></a>
+
+                </div>
+            </nav>
+            <div class="hero">
+                <h1>Bem-vindo ao Della Massa Buffet</h1>
+                <p>Oferecemos o melhor serviço para seus eventos inesquecíveis</p>
+                <a href="#services" class="button">Saiba Mais</a>
             </div>
-            <ul class="nav-links">
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#gallery">Galeria</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-            <div class="cta">
-                <a href="https://www.instagram.com/dellamassas/" target="_blank"><img src="./src/imagens/instagram.svg" alt="instagram"></a>
-                <a href="https://wa.me/556184999719" target="_blank"><img src="./src/imagens/whatsapp.svg" alt="WhatsApp"></a>
-                
-            </div>
-        </nav>
-        <div class="hero">
-            <h1>Bem-vindo ao Della Massa Buffet</h1>
-            <p>Oferecemos o melhor serviço para seus eventos inesquecíveis</p>
-            <a href="#services" class="button">Saiba Mais</a>
-        </div>
-    </header>
-    <main>
-        <section id="about">
-            <h2>Sobre Nós</h2>
-            <p>Nosso buffet é especializado em criar experiências gastronômicas únicas para todos os tipos de eventos.</p>
-            
-        </section>
-        <section id="services">
-            <h2>Serviços</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="/src/imagens/buffet-completo.jpg" alt="Buffet Completo">
-                    <h3>Buffet Completo</h3>
-                    <p>Serviço completo de buffet para todos os tipos de eventos, garantindo uma experiência gastronômica de alta qualidade.</p>
+        </header>
+        <main>
+            <section id="about">
+                <h2>Sobre Nós</h2>
+                <p>Nosso buffet é especializado em criar experiências gastronômicas únicas para todos os tipos de
+                    eventos.</p>
+            </section>
+            <section id="services">
+                <h2>Serviços</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="/src/imagens/buffet-completo.jpg" alt="Buffet Completo">
+                        <h3>Buffet Completo</h3>
+                        <p>Serviço completo de buffet para todos os tipos de eventos, garantindo uma experiência
+                            gastronômica de alta qualidade.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/src/imagens/maitre.jpg" alt="Maitre">
+                        <h3>Maitre</h3>
+                        <p>Nosso maitre garante que tudo corra perfeitamente, coordenando a equipe e atendendo às suas
+                            necessidades.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/src/imagens/churrasqueiro.jpg" alt="Churrasqueiro">
+                        <h3>Churrasqueiro</h3>
+                        <p>Especialistas em churrasco, nossos churrasqueiros oferecem carnes de alta qualidade
+                            preparadas na perfeição.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/src/imagens/garcom.jpg" alt="Garçons">
+                        <h3>Garçons</h3>
+                        <p>Equipe de garçons treinada para oferecer o melhor atendimento aos seus convidados.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/src/imagens/personal-chef.jpg" alt="Personal Chef">
+                        <h3>Personal Chef</h3>
+                        <p>Chefs pessoais para criar menus personalizados e experiências gastronômicas exclusivas no seu
+                            evento.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/src/imagens/personal-chef.jpg" alt="Consultoria">
+                        <h3>Consultoria</h3>
+                        <p>Chefs pessoais para criar menus personalizados e experiências gastronômicas exclusivas no seu
+                            evento.</p>
+                    </div>
+                </div>    
+            </section>
+            <section id="gallery">
+                <h2>Galeria</h2>
+                <div class="carousel">
+                    <div class="carousel-container">
+                        <img src="/src/imagens/evento1.jpg" alt="Evento 1">
+                        <img src="/src/imagens/evento2.jpg" alt="Evento 2">
+                        <img src="/src/imagens/evento3.jpg" alt="Evento 3">
+                        <img src="/src/imagens/evento4.jpg" alt="Evento 4">
+                        <img src="/src/imagens/evento5.jpg" alt="Evento 5">
+                        <img src="/src/imagens/evento6.jpg" alt="Evento 6">
+                        <img src="/src/imagens/evento7.jpg" alt="Evento 7">
+                        <img src="/src/imagens/evento8.jpg" alt="Evento 8">
+                    </div>
+                    <a class="prev" onclick="prevSlide()">&#10094;</a>
+                    <a class="next" onclick="nextSlide()">&#10095;</a>
                 </div>
-                <div class="card">
-                    <img src="/src/imagens/maitre.jpg" alt="Maitre">
-                    <h3>Maitre</h3>
-                    <p>Nosso maitre garante que tudo corra perfeitamente, coordenando a equipe e atendendo às suas necessidades.</p>
-                </div>
-                <div class="card">
-                    <img src="/src/imagens/churrasqueiro.jpg" alt="Churrasqueiro">
-                    <h3>Churrasqueiro</h3>
-                    <p>Especialistas em churrasco, nossos churrasqueiros oferecem carnes de alta qualidade preparadas na perfeição.</p>
-                </div>
-                <div class="card">
-                    <img src="/src/imagens/garcom.jpg" alt="Garçons">
-                    <h3>Garçons</h3>
-                    <p>Equipe de garçons treinada para oferecer o melhor atendimento aos seus convidados.</p>
-                </div>
-                <div class="card">
-                    <img src="/src/imagens/personal-chef.jpg" alt="Personal Chef">
-                    <h3>Personal Chef</h3>
-                    <p>Chefs pessoais para criar menus personalizados e experiências gastronômicas exclusivas no seu evento.</p>
-                </div>
-                <div class="card">
-                    <img src="/src/imagens/personal-chef.jpg" alt="Consultoria">
-                    <h3>Consultoria</h3>
-                    <p>Chefs pessoais para criar menus personalizados e experiências gastronômicas exclusivas no seu evento.</p>
-                </div>
-            </div>
-            
-            </div>
-        </section>
-        <section id="gallery">
-            <h2>Galeria</h2>
-            <div class="carousel">
-                <div class="carousel-container">
-                    <img src="/src/imagens/evento1.jpg" alt="Evento 1">
-                    <img src="/src/imagens/evento2.jpg" alt="Evento 2">
-                    <img src="/src/imagens/evento3.jpg" alt="Evento 3">
-                    <img src="/src/imagens/evento4.jpg" alt="Evento 4">
-                    <img src="/src/imagens/evento5.jpg" alt="Evento 5">
-                    <img src="/src/imagens/evento6.jpg" alt="Evento 6">
-                    <img src="/src/imagens/evento7.jpg" alt="Evento 7">
-                    <img src="/src/imagens/evento8.jpg" alt="Evento 8">
-                </div>
-                <a class="prev" onclick="prevSlide()">&#10094;</a>
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contato</h2>
-            <form action="https://formsubmit.co/">
-                <label for="name">Nome</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Mensagem</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Buffet de Luxo. Todos os direitos reservados.</p>
-    </footer>
+            </section>
+            <section id="contact">
+                <h2>Contato</h2>
+                <form action="https://formsubmit.co/">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+          <p>&copy; 2024 Buffet de Luxo. Todos os direitos reservados.</p>
+        </footer>
     </div>
+
     <script src="/src/Script/scripts.js"></script>
 </body>
-</html>
 
+</html>
